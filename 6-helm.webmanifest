@@ -1,0 +1,24 @@
+{
+  "id": "./",
+  "name": "TRQN HELM 舵台",
+  "short_name": "HELM",
+  "start_url": "./?v=icons-0917",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#09232e",
+  "theme_color": "#f5bd62",
+  "icons": [
+    {
+      "src": "4-helm-app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "5-helm-app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
