@@ -1,0 +1,12 @@
+/* Mobile focus and project menu only. Keep user-controlled pinch zoom enabled. */
+@media (max-width:980px) {
+  input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=color]),
+  textarea, select, [contenteditable=true] { font-size:16px !important; }
+  .project-menu-search { min-height:44px; }
+  .project-menu-search input { font-size:16px !important; }
+  .header-project-menu { position:absolute; left:0; top:calc(100% + 6px); width:min(360px,calc(100vw - 64px)); max-height:min(70dvh,560px); }
+  .header-project-menu button:not(.search-clear) { grid-template-columns:minmax(0,1fr) 22px; min-height:44px; font-size:14px; }
+  .header-project-menu button:not(.search-clear) > .project-avatar { display:none; }
+  .header-project-menu button:not(.search-clear) > span:nth-child(2) { grid-column:1; min-width:0; white-space:normal; overflow-wrap:anywhere; text-overflow:clip; }
+  .header-project-menu .project-menu-check { grid-column:2; }
+}
