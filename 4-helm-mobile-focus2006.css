@@ -1,4 +1,4 @@
-/* Mobile focus and project menu only. Keep user-controlled pinch zoom enabled. */
+/* Mobile focus and project menu only. Input focus sizing; explicit page zoom guard is in the application. */
 @media (max-width:980px) {
   input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=color]),
   textarea, select, [contenteditable=true] { font-size:16px !important; }
